@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+/* HERO SECTION */
+.hero {
+    background-image:
+        linear-gradient(rgba(0, 51, 102, 0.65), rgba(0, 51, 102, 0.65)),
+        url("https://images.unsplash.com/photo-1562774053-701939374585?w=1600");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 120px 20px;
+}
+
+.hero h1 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+
+/* NORMAL HEADER */
+header {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+/* NAVIGATION */
+nav {
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+/* MAIN */
+main {
+    width: 90%;
+    max-width: 1100px;
+    margin: 50px auto;
+}
+
+/* COURSE CARDS */
+.course-card {
+    background: white;
+    padding: 25px;
+    margin: 25px auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.course-card h3 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+.course-card p {
+    margin: 8px 0;
+}
+
+/* HOME PAGE CARDS */
+.card-container {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card h3 {
+    color: #003366;
+    margin-bottom: 15px;
+}
+
+/* BUTTON */
+.button {
+    display: inline-block;
+    background: gold;
+    color: black;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background: orange;
+}
+
+/* IMAGE */
+.campus-image {
+    width: 100%;
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+/* FOOTER */
+footer {
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background: #003366;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #00509e;
+}
